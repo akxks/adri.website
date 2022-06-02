@@ -107,8 +107,7 @@ a {
 
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-
-      background-color: red;
+ 
       float: right;
       display: block;
     } 
