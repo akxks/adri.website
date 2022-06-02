@@ -96,6 +96,15 @@ a {
    
 
   @media screen and (max-width: 600px) {
+
+    .hidenotphone{
+      display:none ; 
+    }
+
+    .showphone{
+      display: block ;  
+    }
+
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
 
@@ -121,6 +130,13 @@ a {
       display: block;
       text-align: left;
     }
+  }
+
+
+  @media screen and (min-width: 650px) {
+    .showphone {
+      display:none;
+    } 
   }
 
 
