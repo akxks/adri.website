@@ -132,9 +132,14 @@ a {
   }
 
 
-  @media screen and (min-width: 650px) {
+  @media screen and (max-width: 650px) and (min-width: 200px) {
     .showphone {
-      display:none;
+      display:block !important;
+    } 
+  } 
+  @media screen and (min-width: 650px)  {
+    .showphone {
+      display:none !important;
     } 
   } 
 
